@@ -1,0 +1,4 @@
+(my-case (var :test #'string=)
+  (("test1" "test2") (do-someting-1))
+  ("test3" (do-something-2))
+  (t (do-something-else)))
